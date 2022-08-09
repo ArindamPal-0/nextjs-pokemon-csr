@@ -1,3 +1,6 @@
+{
+  /*eslint-disable @next/next/no-img-element*/
+}
 import { useState, useEffect } from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
@@ -36,7 +39,6 @@ const Home: NextPage = () => {
           <div className={styles.card} key={pokemon.id}>
             <Link href={`/pokemon/${pokemon.id}`}>
               <a>
-                {/*eslint-disable-next-line @next/next/no-img-element*/}
                 <img
                   src={`https://arindampal-0.github.io/pokemon-api/${pokemon.image}`}
                   alt={pokemon.name}
