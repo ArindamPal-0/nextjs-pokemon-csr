@@ -14,3 +14,13 @@ to run the dev setup, run the following command:
 $ npm install
 $ npm run dev
 ```
+
+<br>
+
+### Pokemon API used
+
+[https://arindampal-0.github.io/pokemon-api/index.json](https://arindampal-0.github.io/pokemon-api/index.json)
+
+The API data is provided by [Jack Herrington](https://github.com/jherr).
+
+The API data can be found at [pokemon](https://github.com/jherr/pokemon).
